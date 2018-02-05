@@ -1,0 +1,35 @@
+#for-print-only-text{
+	display:none;
+}
+#for-print-only-image{
+	display:none;
+}
+/*
+ * 
+ * Print Styles
+ * 
+ * /
+
+/* Print Style Sheet */
+@media print {
+header { display: none !important; }
+	.archive-sidebar { display: none !important;}
+	footer { display: none !important;}
+	.more-like-this {display: none !important;}
+	.post-navigation { display:none !important;}
+	.social-sharing-button {display: none !important;}
+	.post { width: 80%  !important}
+	#for-print-only-image{
+		width:80px;
+		height:40px;
+		float:right;
+		display : inline !important;
+	    float:right;
+		
+	}
+	#for-print-only-text{
+		
+		display:inline !important;
+	}
+}
+
