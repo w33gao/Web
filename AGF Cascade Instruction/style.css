@@ -37,6 +37,7 @@ banner {
 }
 
 .logo {
+	position: relative;
 	left: 20px;
 	height: 150px;
 	align: left;
@@ -58,7 +59,7 @@ button.print-button {
 	position: relative;
 	padding: 0;
 	border: 0;
-	align: right;
+	right: 0px;
 	vertical-align: middle;
 	border: none;
 	background: transparent;
