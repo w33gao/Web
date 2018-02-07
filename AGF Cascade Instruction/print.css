@@ -7,7 +7,8 @@
 	}
 
 	@page { 
-		margin: 1 in 
+		margin: 1 in;
+		size: letter portrait;
 	}
 
 
