@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="print.css" media="print">
+		<title>Introduction to Cascade</title>
+	</head>
+	<body> 
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a href="#top"><img src="AGF_logo.png" alt="AGF Tiger Logo" class="logo"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="http://cascade-pv01:8080/login.act">Link to Cascade</a>
+				      </li>
+
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basic Accessibility</a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#secA1">Log In</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#secA2">Home Page</a>
+				          <a class="dropdown-item" href="#secA3">Switching Sites</a>
+				        </div>
+				      </li>
+
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Uploading</a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#secB1">Files</a>
+				          <a class="dropdown-item" href="#secB2">Images</a>
+				        </div>
+				      </li>
+				</ul>
+			  </div>
+			  <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
+			</nav>
+
+		</header>
+
+    	<div class="container">
+    		<div class="row justify-content-md-center">
+    			<h1>Basic Accessibility</h1>
+    		</div>
+
+    		<div class="row justify-content-md-center">
+	       		<div class="col-4">
+	       			<img src="login.png" alt="image of  login page" width=100%>
+	       		</div>
+
+	       		<div class="col-8">
+	       			<h2 id="secA1"> Log In </h2>
+					<p>This is the page that should appear when accessing Cascade (link on the navigation bar above).</p>
+					<p>Enter Username and Password credentials and submit to log in.</p>
+	       		</div>
+	       	</div>
+
+	       	<div class="row justify-content-md-center">
+	       		<div class="col-4">
+	       			<img src="cascade-mainpage.png" alt=" screenshot of cascade mainpage" width=100%>
+	       		</div>
+
+	       		<div class="col-8">
+	       			<h2 id="secA2"> Cascade Home Page</h2>
+					<p>The default home page upon logging in features customizable widgets. The default widgets is one click away from recently accessed blocks, pages, etc. Follow the instructions on picture to switch websites.</p>
+	       		</div>
+	       	</div>
+
+	       	<div class="row justify-content-md-center">
+	       		<div class="col-4">
+	       			<img src="dropdown-cascade.png" width="100%">
+	       		</div>
+
+	       		<div class="col-8">
+	       			<h2 id="secA3">Switching Sites</h2>
+	       			<p>After clicking on the area indicated on the navigation bar the following dropdown will appear allowing access to the following sites:
+					<a href="http://cascade-pv01:8080/entity/open.act?type=folder&id=31a4e3800ac801267c990119c9e9fe05">AGF</a>,
+					<a href="http://cascade-pv01:8080/entity/open.act?type=folder&id=61978ae10ac8012609d4bbfd9bda2dab"> AGF Files</a>,
+					<a href="http://cascade-pv01:8080/entity/open.act?type=folder&id=65376f1a0ac801260412259b07626dcf">AGF CMS</a>.
+					<br></p>
+				
+	       		</div>
+	       	</div>
+
+	       	<div class="row justify-content-md-center">
+    			<h1>Uploading</h1>
+    		</div>
+
+    		<div class="row justify-content-md-center">
+	       		<div class="col-4">
+	       			<img src="login.png" alt="image of  login page" width=100%>
+	       		</div>
+
+	       		<div class="col-8">
+	       			<h2 id="secB1"> Uploading Files </h2>
+					<ol>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+					</ol>
+	       		</div>
+	       	</div>
+
+	       	<div class="row justify-content-md-center">
+	       		<div class="col-4">
+	       			<img src="login.png" alt="image of  login page" width=100%>
+	       		</div>
+
+	       		<div class="col-8">
+	       			<h2 id="secB2"> Uploading Images </h2>
+					<ol>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+						<li>This is the page that should appear when accessing Cascade (link on the navigation bar above).</li>
+					</ol>
+	       		</div>
+	       	</div>
+
+	       	</div>
+
+	    </div>
+	
+	
+		
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+	</body>
+			
+</html>
+ 
