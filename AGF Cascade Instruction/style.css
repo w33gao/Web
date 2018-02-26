@@ -1,6 +1,5 @@
 body {
-	background: #fff;
-  margin:20px;
+  background-color: #ED5A36;
 }
 
 p {
@@ -28,24 +27,18 @@ h2 {
 }
 
 
-
-#wrapper {
-    width: 100%;
-    overflow: hidden;
+.container {
+  background-color: #fff;
 }
-#container {
-    height:200px;
-    background-color: #FFB819;
-    width: 100%;
-    margin: 0;
+
+.row {
+  padding:40px;
 }
 
 
-#logo {
-  height:100px;
-	position: relative;
-  left:0;
-	top: 50px;
+.logo {
+  height:40px;
+  left:20px;
 }
 
 .print-button {
@@ -55,11 +48,11 @@ h2 {
 }
 
 button.print-button {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 40px;
 }
 span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
-  border: solid 4px #333;
+  border: solid 3px #333;
 }
 span.print-icon::after {
   border-width: 2px;
